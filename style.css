@@ -1,0 +1,219 @@
+body {
+  padding: 5px 20px;
+  margin: 30px 30px;
+}
+
+/* header */
+
+header img {
+  height: 70px;
+  width: 70px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .logo .title {
+  margin-top: 15px;
+}
+
+header .number-donate button {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* nav */
+nav {
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li button {
+  border: none;
+  background-color: transparent;
+}
+
+/* carousel */
+
+.carousel {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.carousel .slide-image .image-slide {
+  width: 50%;
+}
+
+.carousel .slide .slide-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.carousel .slide .image-slide-description {
+  width: 50%;
+}
+
+.carousel .slide .image-slide-description h1 {
+  display: block;
+}
+
+/* logo section */
+.logo-section {
+  margin-top: 10px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.logo-section i {
+  font-size: 3em;
+}
+
+.logo-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.logo-section div {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-section div .icons {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.logo-section p {
+  margin-bottom: 20px;
+}
+
+/* video-middlesection   */
+.video-caption {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.video-caption .youtube {
+  border-right: 1px solid black;
+  margin-right: 10px;
+}
+
+.video-caption article {
+  margin-left: 10px;
+}
+
+/* recent news */
+.recent-news {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.recent-news .news-cards {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.recent-news .news-cards .newsCard {
+  width: 30%;
+  background-color: lightgray;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.recent-news h1 {
+  padding-left: 40px;
+}
+
+/* final section */
+.final-section {
+  padding: 20px;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.final-section .final-section-card {
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.final-section .final-section-card2 {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.final-section .final-section-card2 img {
+  margin-right: 10px;
+}
+
+.final-section .final-section-card2 button {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding-bottom: 7px;
+}
+
+.footer footer .signature-and-socials {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer footer .signature-and-socials .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer footer .signature-and-socials .socials button {
+  border: none;
+  background-color: transparent;
+}
+
+.footer footer .signature-and-socials .socials button a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer footer .signature-and-socials .socials button a:hover {
+  color: blue;
+}
+
+.footer footer .address {
+  text-align: center;
+}
