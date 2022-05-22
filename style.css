@@ -1,3 +1,12 @@
+* {
+  font-size: 17px;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
 body {
   padding: 5px 20px;
   margin: 30px 30px;
@@ -5,8 +14,8 @@ body {
 
 /* header */
 header img {
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 170px;
 }
 
 header {
@@ -20,12 +29,16 @@ header .logo {
 }
 
 header .logo .title {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 header .number-donate button {
   padding: 5px;
   border-radius: 10px;
+}
+
+header .number-donate button:hover {
+  color: blue;
 }
 
 /* nav */
@@ -59,11 +72,18 @@ nav ul li button {
   padding-right: 100px;
 }
 
+.carousel .slide .slide-image img {
+  width: 400px;
+  height: 350px;
+  padding: 7px;
+}
+
 .carousel .slide .slide-image {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .carousel .slide .slide-image .image-slide-description {
   padding-left: 100px;
 }
@@ -158,6 +178,16 @@ nav ul li button {
   padding-right: 20px;
 }
 
+.final-section .final-section-card button {
+  margin-top: 70px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.final-section .final-section-card button:hover {
+  color: blue;
+}
+
 .final-section .final-section-card2 {
   padding-left: 20px;
   display: flex;
@@ -166,11 +196,19 @@ nav ul li button {
 
 .final-section .final-section-card2 img {
   margin-right: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: 250px;
 }
 
 .final-section .final-section-card2 button {
   border-radius: 5px;
   padding: 10px;
+  margin-left: 250px;
+}
+
+.final-section .final-section-card2 button:hover {
+  color: blue;
 }
 
 /* footer */
@@ -204,9 +242,22 @@ footer {
 }
 
 .footer footer .signature-and-socials .socials button a:hover {
-  color: blue;
+  color: yellow;
 }
 
 .footer footer .address {
   text-align: center;
+}
+
+.signature-and-socials .signature {
+  font-size: 12px;
+}
+
+footer .address #email a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .address #email a:hover {
+  color: yellow;
 }
