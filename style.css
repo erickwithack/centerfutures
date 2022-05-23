@@ -8,8 +8,7 @@ h1 {
 }
 
 body {
-  padding: 5px 20px;
-  margin: 30px 30px;
+  padding: 100px 100px;
 }
 
 /* header */
@@ -121,6 +120,10 @@ nav ul li button {
 }
 
 /* video-middlesection   */
+
+.what-we-do .title-whatwedo {
+  padding-left: 20px;
+}
 .video-caption {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -171,6 +174,10 @@ nav ul li button {
   padding: 20px;
   border-bottom: 1px solid black;
   display: flex;
+}
+
+.final .final-title {
+  padding-left: 20px;
 }
 
 .final-section .final-section-card {
@@ -422,3 +429,5 @@ footer .address #email a:hover {
     font-size: 12px;
   }
 }
+
+/* hover chatbubble */
