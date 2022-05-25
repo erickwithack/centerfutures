@@ -9,10 +9,19 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- increase font sizes and other accessible stuff -->
+    <div class="accessible-buttons">
+      <button onclick="decreaseFont(event)">Make text smaller</button>
+      <button onclick="makeTextBigger(event)">Make text bigger</button>
+      <button onclick="highContrastify(event)">High Contrast</button>
+    </div>
+
     <header>
       <div class="logo">
         <img
@@ -274,7 +283,5 @@
         </div>
       </footer>
     </div>
-
-    <script src="index.js"></script>
   </body>
 </html>
